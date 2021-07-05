@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-
+import { ConfigureStore } from "./store";
+const store = ConfigureStore();
 ReactDOM.render(
   <React.StrictMode>
     <App />
